@@ -1,0 +1,197 @@
+<html>
+<header>
+	<link rel = "styleSheet" href = "CSS/styles.css">
+	
+	<center>
+	<div><img src="Images/logo.png" height ="100px" width = "150px"><a href = "javascript:void(0)" onclick = "popupfunction('11'); showCart()" class=linktext>
+		<img class="cart1" src="Images/cart.jpg" />
+	</a>
+	<div id="popup11" class="white_content">
+	<p><br>
+	<div class="cartpopup" id="mycart">
+	<div id="mycart" class="cartcount"></div>
+	</div>
+		<br><br><button type="button">Checkout</button><br><br>
+		<a href = "javascript:void(0)" onclick = "popupclose('11')" class=linktext><br>Close</a>
+	</p>
+	</div>
+	<div id="fade11" class="black_content"></div>
+	</div>
+	</center>
+	
+	
+</header>
+<script src = "scripts.js">
+</script>
+<body onload = "popupclose('1');popupclose('2');popupclose('3');popupclose('4');popupclose('5');popupclose('6');popupclose('7');popupclose('8');popupclose('9');popupclose('10');popupclose('11')">
+	
+	<body bgcolor="#fff">
+	<ul style="background-color:#DDCAD9;">
+		<li class="menu-item"><a href="#" class="drp">Apple</a>
+		<div class="menu-content">
+			<a href="#">IPhones</a><br>
+			<a href="#">MacBooks</a><br>
+			<a href="#">Airpods</a><br>
+		</div>
+		</li>
+		
+		
+		<li class="menu-item"><a href="#" class="drp">Logitech</a>	
+		<div class="menu-content">
+			<a href="#">Mice</a><br>
+			<a href="#">Keyboards</a><br>
+			<a href="#">Headsets</a><br>
+		</div>
+		</li>
+		
+		<li class="menu-item"><a href="#" class="drp">HP</a>
+		<div class="menu-content">
+			<a href="#">Printers</a><br>
+			<a href="#">Laptops</a><br>
+			<a href="#">Monitors</a><br>
+		</div>
+		</li>
+		
+		<li class="menu-item"><a href="#" class="drp">Video Games</a>
+		<div class="menu-content">
+			<a href="#">Team Fortress 2</a><br>
+			<a href="#">Minecraft</a><br>
+			<a href="#">Elden Ring</a><br>
+		</div>
+		</li>
+	</ul>
+	
+<center>
+<table>
+	<tr>
+	<td align = "center">
+	<a href = "javascript:void(0)" onclick = "popupfunction('2')" class=linktext>
+		<img src="Images/alaptop.jpg" width= "150px" /><br>Stolen MacBook Pro
+	</a>
+	<div id="popup2" class="white_content">
+	<p align=center><br><br>
+		<img src="Images/alaptop.jpg" width = "200px" /><br>Stolen MacBook Pro<br><br>Starting at $1999<br>14" and 16" Sizes<br>Liquid Retina Display<br>Apple M2 Pro Chip<br><br><button type="button" onclick = "addToCart('Stolen Macbook Pro: $1999');total('1999')">Add to Cart!</button><br><br>
+		<a href = "javascript:void(0)" onclick = "popupclose('2')" class=linktext>Close</a>
+	</p>
+	</div>
+	<div id="fade2" class="black_content"></div>
+	</td>
+	
+
+	
+	<td align = "center"><a href = "javascript:void(0)" onclick = "popupfunction('1')" class=linktext>
+		<img src="Images/printer.png" width="150px" /><br>Stolen HP Deskjet Printer
+	</a>
+	<div id="popup1" class="white_content">
+	<p align=center><br><br>
+		<img src="Images/printer.png" width="200px" /><br>Stolen HP Deskjet Printer<br><br>Starting at $85<br>Print, copy, and scan in color with mobile/wireless printing<br>Dynamic security enabled printer<br>Includes 6 months of Instant Ink<br><br><button type="button" onclick = "addToCart('Stolen HP Deskjet Printer: $85');total('85')">Add to Cart!</button><br><br>
+		<a href = "javascript:void(0)" onclick = "popupclose('1')" class=linktext>Close</a>
+	</p>
+	</div>
+	<div id="fade1" class="black_content"></div></td>
+	
+	
+	
+	<td align = "center"><a href = "javascript:void(0)" onclick = "popupfunction('3')" class=linktext>
+		<img src="Images/iphone14.jfif" width="150px" /><br>Stolen iPhone 14 Pro
+	</a>
+	<div id="popup3" class="white_content">
+	<p align=center><br><br>
+		<img src="Images/iphone14.jfif" width="200px" /><br>Stolen iPhone 14 Pro<br><br>Starting at $879<br>Dual Camera System<br>Video Recording. 4K recording at 24, 25, 30, or 60 fps<br> A15 Bionic Chip<br>TrueDepth Camera<br><br><button type="button" onclick = "addToCart('Stolen iPhone 14 Pro: $879');total('879')">Add to Cart!</button><br><br>
+		<a href = "javascript:void(0)" onclick = "popupclose('3')" class=linktext>Close</a>
+	</p>
+	</div>
+	<div id="fade3" class="black_content"></div></td>
+	
+	
+	
+	<td align = "center"><a href = "javascript:void(0)" onclick = "popupfunction('4')" class=linktext>
+		<img src="Images/airpod.jfif" width="120px" /><br>Stolen Airpods
+	</a>
+	<div id="popup4" class="white_content">
+	<p align=center><br><br>
+		<img src="Images/airpod.jfif" width="200px" /><br>Stolen Airpods<br><br>Starting at $150<br>Longer Battery Life<br><br><button type="button" onclick = "addToCart('Stolen Airpods: $150');total('150')">Add to Cart!</button><br><br>
+		<a href = "javascript:void(0)" onclick = "popupclose('4')" class=linktext>Close</a>
+	</p>
+	</div>
+	<div id="fade4" class="black_content"></div></td>
+	
+	
+	<td align = "center"><a href = "javascript:void(0)" onclick = "popupfunction('5')" class=linktext>
+		<img src="Images/hp.jfif" height = "115px" width="150px" /><br>Stolen HP Laptop
+	</a>
+	<div id="popup5" class="white_content">
+	<p align=center><br><br>
+		<img src="Images/hp.jfif" width="200px" /><br>Stolen HP Laptop<br><br>Starting at $1200<br>Faster processing<br>More memory<br><br><button type="button" onclick = "addToCart('Stolen HP Laptop: $1200');total('1200')">Add to Cart!</button><br><br>
+		<a href = "javascript:void(0)" onclick = "popupclose('5')" class=linktext>Close</a>
+	</p>
+	</div>
+	<div id="fade5" class="black_content"></div></td>
+	
+	</tr>
+	<br><br>
+	<tr>
+		<td align = "center"><a href = "javascript:void(0)" onclick = "popupfunction('6')" class=linktext>
+		<img src="Images/monitor.jfif" width="150px" /><br>Stolen HP Monitor
+	</a>
+	<div id="popup6" class="white_content">
+	<p align=center><br><br>
+		<img src="Images/monitor.jfif" width="200px" /><br>Stolen HP Monitor<br><br>Starting at $500<br>4k Viewing<br><br><button type="button" onclick = "addToCart('Stolen HP Monitor: $500');total('500')">Add to Cart!</button><br><br>
+		<a href = "javascript:void(0)" onclick = "popupclose('6')" class=linktext>Close</a>
+	</p>
+	</div>
+	<div id="fade6" class="black_content"></div></td>
+	
+	
+	<td align = "center"><a href = "javascript:void(0)" onclick = "popupfunction('7')" class=linktext>
+		<img src="Images/keyboard.jfif" height = "100px" width="200px" /><br>Stolen Logitech Keyboard
+	</a>
+	<div id="popup7" class="white_content">
+	<p align=center><br><br>
+		<img src="Images/keyboard.jfif"  height = "100px" width="200px" /><br>Stolen Logitech Keyboard<br><br>Starting at $60<br>RGB Color Display<br><br><button type="button" onclick = "addToCart('Stolen Logitech Keyboard: $60');total('60')">Add to Cart!</button><br><br>
+		<a href = "javascript:void(0)" onclick = "popupclose('7')" class=linktext>Close</a>
+	</p>
+	</div>
+	<div id="fade7" class="black_content"></div></td>
+	
+	
+	<td align = "center"><a href = "javascript:void(0)" onclick = "popupfunction('8')" class=linktext>
+		<img src="Images/mouse.jfif" width="150px" /><br>Stolen Logitech Mouse
+	</a>
+	<div id="popup8" class="white_content">
+	<p align=center><br><br>
+		<img src="Images/mouse.jfif" width="200px" /><br>Stolen Logitech Mouse<br><br>Starting at $35<br>RGB Color Display<br>Adjustable Cursor Speeds<br><br><button type="button" onclick = "addToCart('Stolen Logitech Mouse: $35');total('35')">Add to Cart!</button><br><br>
+		<a href = "javascript:void(0)" onclick = "popupclose('8')" class=linktext>Close</a>
+	</p>
+	</div>
+	<div id="fade8" class="black_content"></div></td>
+	
+	
+	<td align = "center"><a href = "javascript:void(0)" onclick = "popupfunction('9')" class=linktext>
+		<img src="Images/lheadset.jpg" width="100px" /><br>Stolen Logitech Headset
+	</a>
+	<div id="popup9" class="white_content">
+	<p align=center><br><br>
+		<img src="Images/lheadset.jpg" width="200px" /><br>Stolen Logitech Headset<br><br>Starting at $50<br>Enhanced Surround Sound Audio<br><br><button type="button" onclick = "addToCart('Stolen Logitech Headset: $50');total('50')">Add to Cart!</button><br><br>
+		<a href = "javascript:void(0)" onclick = "popupclose('9')" class=linktext>Close</a>
+	</p>
+	</div>
+	<div id="fade9" class="black_content"></div></td>
+	
+	
+	<td align = "center"><a href = "javascript:void(0)" onclick = "popupfunction('10')" class=linktext>
+		<img src="Images/ER.jfif" height = "110px" width="130px" /><br>Pirated Copy of Elden Ring
+	</a>
+	<div id="popup10" class="white_content">
+	<p align=center><br><br>
+		<img src="Images/ER.jfif" width="200px" /><br>Pirated Copy of Elden Ring<br><br>Starting at $60<br>Game of the Year Award Winner<br>Innovative Combat<br><br><button type="button" onclick = "addToCart('Pirated Copy of Elden Ring: $60');total('60')">Add to Cart!</button><br><br>
+		<a href = "javascript:void(0)" onclick = "popupclose('10')" class=linktext>Close</a>
+	</p>
+	</div>
+	<div id="fade10" class="black_content"></div></td>
+	</tr>
+</table>
+</center>
+</body>
+</html>
+	
